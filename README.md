@@ -17,7 +17,7 @@ This script helps manage a Satisfactory dedicated server on Ubuntu. It provides 
 ```
 bash
 git clone https://github.com/asidsx/SatyUbuntuInstaller.git
-cd yourrepository
+cd SatyUbuntuInstaller
 ```
 
 2. *Make the Script Executable*: Ensure the script has execution permissions.

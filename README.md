@@ -1,3 +1,5 @@
+Файл [README.MD](https://github.com/asidsx/SatyUbuntuInstaller/blob/main/README_RU.MD) на русском 
+---
 # SatyUbuntuInstaller
 # Satisfactory Dedicated Server Management Script
 

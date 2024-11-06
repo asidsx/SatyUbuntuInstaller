@@ -1,5 +1,4 @@
 # SatyUbuntuInstaller
-![GitHub all releases](https://img.shields.io/github/downloads/asidsx/SatyUbuntuInstaller/total)
 # Скрипт управления выделенным сервером Satisfactory
 
 Этот скрипт помогает управлять выделенным сервером Satisfactory на Ubuntu. Он предоставляет функции для установки, обновления, запуска, остановки и управления сервером как службой systemd.

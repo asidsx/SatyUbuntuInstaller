@@ -27,7 +27,7 @@ function install_server() {
 
 function install_server_experimental() {
     echo "Устанавливается экспериментальная версия сервера Satisfactory..."
-    steamcmd +force_install_dir "$SERVER_DIR" +login anonymous +app_update 1690800 -beta experimental validate +quit
+    steamcmd +force_install_dir "$SERVER_DIR" +login anonymous +app_update 1690800 -beta default validate +quit
     echo "Установка экспериментальной версии завершена!"
 }
 

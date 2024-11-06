@@ -1,7 +1,6 @@
 Файл [README.MD](https://github.com/asidsx/SatyUbuntuInstaller/blob/main/README_RU.MD) на русском 
 ---
 # SatyUbuntuInstaller
-![GitHub all releases](https://img.shields.io/github/downloads/asidsx/SatyUbuntuInstaller/total)
 # Satisfactory Dedicated Server Management Script
 
 This script helps manage a Satisfactory dedicated server on Ubuntu. It provides functions for installation, updating, starting, stopping, and managing the server as a systemd service.

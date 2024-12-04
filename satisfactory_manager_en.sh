@@ -21,13 +21,13 @@ function install_steamcmd() {
 # Functions to install and update the server
 function install_server() {
     echo "Installing Satisfactory server..."
-    steamcmd +force_install_dir "$SERVER_DIR" +login anonymous +app_update 1690800 validate +quit
+    steamcmd +force_install_dir "$SERVER_DIR" +login anonymous +app_update 1690800 -beta public validate +quit
     echo "Installation completed!"
 }
 
 function install_server_experimental() {
     echo "Installing experimental version of the Satisfactory server..."
-    steamcmd +force_install_dir "$SERVER_DIR" +login anonymous +app_update 1690800 -beta default validate +quit
+    steamcmd +force_install_dir "$SERVER_DIR" +login anonymous +app_update 1690800 -beta public validate +quit
     echo "Experimental version installation completed!"
 }
 

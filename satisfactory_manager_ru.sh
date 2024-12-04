@@ -21,13 +21,13 @@ function install_steamcmd() {
 # Функции для установки и обновления сервера
 function install_server() {
     echo "Устанавливается сервер Satisfactory..."
-    steamcmd +force_install_dir "$SERVER_DIR" +login anonymous +app_update 1690800 validate +quit
+    steamcmd +force_install_dir "$SERVER_DIR" +login anonymous +app_update 1690800 -beta public validate +quit
     echo "Установка завершена!"
 }
 
 function install_server_experimental() {
     echo "Устанавливается экспериментальная версия сервера Satisfactory..."
-    steamcmd +force_install_dir "$SERVER_DIR" +login anonymous +app_update 1690800 -beta default validate +quit
+    steamcmd +force_install_dir "$SERVER_DIR" +login anonymous +app_update 1690800 -beta experimental validate +quit
     echo "Установка экспериментальной версии завершена!"
 }
 
@@ -47,7 +47,7 @@ Wants=network-online.target
 After=syslog.target network.target nss-lookup.target network-online.target
 
 [Service]
-ExecStartPre=/usr/games/steamcmd +force_install_dir \"$SERVER_DIR\" +login anonymous +app_update 1690800 validate +quit
+ExecStartPre=/usr/games/steamcmd +force_install_dir \"$SERVER_DIR\" +login anonymous +app_update 1690800 -beta public validate +quit
 ExecStart=$SERVER_DIR/FactoryServer.sh
 User=$USER
 Group=$USER
